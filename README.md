@@ -1,6 +1,6 @@
 ﻿# 📝 TO-DO List Terminal (Kotlin)
 
-Este é um projeto simples de **lista de tarefas (TO-DO List)** Estilo Terminal, desenvolvido em **Kotlin**. A aplicação permite que o usuário adicione, visualize e remova tarefas diretamente.(Ainda em desenvolvimento, Muitas funcionalidades ainda nao disponiveis!)
+Este é um projeto simples de **lista de tarefas (TO-DO List)** Estilo Terminal, desenvolvido em **Kotlin**. A aplicação permite que o usuário adicione, visualize e remova tarefas diretamente.(Ainda em desenvolvimento, Muitas funcionalidades ainda não disponiveis!)
 
 ## 🚀 Funcionalidades
 
