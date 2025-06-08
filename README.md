@@ -6,7 +6,6 @@ Este é um projeto simples de **lista de tarefas (TO-DO List)** Estilo Terminal,
 
 - Adicionar nova tarefa
 - Listar tarefas existentes
-- Remover tarefa por índice
 - Sair do programa com segurança
 
 ## 📦 Tecnologias usadas
