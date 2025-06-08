@@ -1,9 +1,9 @@
-import Core.lista
+import Core.menu
 
 
 fun main(){
 
-    lista().addlist()
+    menu().menuView()
 
 
 }
