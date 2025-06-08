@@ -13,9 +13,11 @@ class lista (){
         repetir@while(adicionar) {
             if (contask == "/Continue") {
                 var task: String = readln()
-                if(task == "/Smile"){
-                    task = secret().secretSmile()
-                }
+                    if(task == "/Smile"){
+                       task = secret().secretSmile()
+                    }else if(task == "/Sad"){
+                       task = secret().secretSad()
+                    }
                 print("$numtask.")
                 numtask++
                 continue@repetir

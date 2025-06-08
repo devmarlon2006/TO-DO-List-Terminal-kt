@@ -8,14 +8,12 @@ class secret(){
         return smile
     }
 
-    fun rainbow(): String{
+    fun secretSad(): String{
 
-        val blue: String = ""
-        return blue
-        
+        val sad: String = println(":-(").toString()
+        return sad
 
     }
-
 }
 
 
