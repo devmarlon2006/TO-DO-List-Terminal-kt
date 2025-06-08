@@ -2,6 +2,8 @@ package Core
 import Core.lista
 import Core.ajudarme
 
+val confirm: Char = '\u0000'
+
 class menu (){
 
     fun menuView (){
@@ -16,15 +18,27 @@ class menu (){
             print("Enter your choice: ")
             var select: Int = readln().toInt()
 
-            if (select == 1){
+            if (select == 1) {
                 lista().addlist()
-            }else if(select == 2){
+
+            } else if (select == 2) {
                 ajudarme().helpme()
-            }else if(select == 3)
-                break@mostrarMenu
+
+            } else if (select == 3) {
+                print("Exit s/n:")
+                val confirm: Char = readln()[0]
+                if (confirm == 's') {
+                    break@mostrarMenu
+
+                } else if (confirm == 'n') {
+                    continue@mostrarMenu
+
+                } else {
+                    println("Invalid 'char'")
+                    continue@mostrarMenu
+                }
+
+            }
         }
-
-
     }
-
 }
