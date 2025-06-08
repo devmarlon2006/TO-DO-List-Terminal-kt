@@ -1,11 +1,11 @@
 package Core
 import Util.numtask
 import Util.adicionar
-import Easter.snake
+import Easter.secret
 
 class lista (){
 
-    fun addlist(): String{
+    fun addlist(){
         print("Digite '/Continue' para daicionar uma tarefa:")
         val contask: String = readln()
         var task: String = ""
@@ -13,8 +13,8 @@ class lista (){
         repetir@while(adicionar) {
             if (contask == "/Continue") {
                 var task: String = readln()
-                if(task == "/Snake"){
-                    task = snake()
+                if(task == "/Smile"){
+                    task = secret().secretSmile()
                 }
                 print("$numtask.")
                 numtask++
@@ -24,7 +24,6 @@ class lista (){
                 break@repetir
             }
         }
-        return task
     }
 
 }

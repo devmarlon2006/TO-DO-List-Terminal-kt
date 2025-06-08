@@ -1,11 +1,22 @@
 package Easter
 
-fun snake(): String{
+class secret(){
 
-    val coco: String = println("Cade?").toString()
-    return coco
+    fun secretSmile(): String{
+
+        val smile: String = println(" :-)").toString()
+        return smile
+    }
+
+    fun rainbow(): String{
+
+        val blue: String = ""
+        return blue
+        
+
+    }
+
 }
 
-fun rainbow(){
 
-}
+
