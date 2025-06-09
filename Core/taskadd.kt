@@ -17,6 +17,8 @@ class lista (){
                        task = secret().secretSmile()
                     }else if(task == "/Sad"){
                        task = secret().secretSad()
+                    }else if(task == "/menu"){
+                        menu().menuView()
                     }
                 print("$numtask.")
                 numtask++
