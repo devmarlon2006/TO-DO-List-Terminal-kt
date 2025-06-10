@@ -38,6 +38,9 @@ class menu (){
                     continue@mostrarMenu
                 }
 
+            }else{
+                print("invalid")
+                continue@mostrarMenu
             }
         }
     }

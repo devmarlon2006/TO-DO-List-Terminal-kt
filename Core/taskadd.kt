@@ -1,9 +1,15 @@
 package Core
 import Util.numtask
 import Util.adicionar
+import Core.ProcessingPart.ListComandProcess
 import Easter.secret
 
 class lista (){
+
+    fun ta(): String{
+        var task: String = readln()
+        return task
+    }
 
     fun addlist(){
         print("Digite '/Continue' para daicionar uma tarefa:")
@@ -12,20 +18,15 @@ class lista (){
 
         repetir@while(adicionar) {
             if (contask == "/Continue") {
-                var task: String = readln()
-                    if(task == "/Smile"){
-                       task = secret().secretSmile()
-                    }else if(task == "/Sad"){
-                       task = secret().secretSad()
-                    }else if(task == "/menu"){
-                        menu().menuView()
-                    }
                 print("$numtask.")
+                ListComandProcess().processComand()
                 numtask++
                 continue@repetir
 
             } else if (contask == "/Exit") {
                 break@repetir
+            }else{
+                continue@repetir
             }
         }
     }
