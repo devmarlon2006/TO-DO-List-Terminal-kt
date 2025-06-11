@@ -19,10 +19,6 @@ class secret(){
         println("Qual o seu nome, jovem padawan?")
     }
 
-    fun adivinheNumero() {
-        println("Estou pensando em um número entre 1 e 10. Qual você acha que é?")
-    }
-
     fun caixaSurpresa() {
         println("📦")
         println(" +---+")
@@ -69,7 +65,10 @@ class secret(){
     fun mensagemSecreta() {
         println("Você encontrou! 🤫 Não conte a ninguém, é nosso segredo.")
     }
-    
+
+
 }
+
+
 
 
