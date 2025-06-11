@@ -1,6 +1,7 @@
 package Core.ProcessingPart
 import Core.lista
 import Easter.secret
+import Easter.MiniGames.FoundNumber
 
 class ListComandProcess {
 
@@ -11,6 +12,8 @@ class ListComandProcess {
             secret().secretSad()
         }else if(comand == "/Smile"){
             secret().secretSmile()
+        }else if(comand == "/NumeroSecreto"){
+            FoundNumber().SecretNumber()
         }
         return comand
 
