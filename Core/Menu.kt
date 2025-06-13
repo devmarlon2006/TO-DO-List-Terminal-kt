@@ -23,6 +23,7 @@ class menu (){
 
             } else if (select == 2) {
                 ajudarme().helpme()
+                break@mostrarMenu
 
             } else if (select == 3) {
                 print("Exit s/n:")

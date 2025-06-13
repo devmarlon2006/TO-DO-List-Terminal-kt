@@ -1,12 +1,17 @@
 package Core.ProcessingPart
-import Core.lista
+import Core.menu
 import Easter.secret
 import Easter.MiniGames.FoundNumber
 
 class ListComandProcess {
 
+    fun escrever(): String{
+        var task: String = readln()
+        return task
+    }
+
     fun processComand(): String{
-        var comand: String = lista().ta()
+        var comand: String = ListComandProcess().escrever()
         if (comand == "/Sad"){
             secret().secretSad()
         }else if(comand == "/Smile"){
@@ -25,7 +30,9 @@ class ListComandProcess {
             secret().codigoIncrivel()
         }else if(comand == "/Hacker"){
             secret().hackerman()
-        }else{
+        }else if(comand == "/Menu"){
+            menu().menuView()
+        }else if(comand == ""){
 
         }
 
