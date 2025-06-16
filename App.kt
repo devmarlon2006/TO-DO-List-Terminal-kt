@@ -1,8 +1,7 @@
-import Core.menu
-
+import LauchAplication.launc
 
 fun main(){
 
-    menu().menuView()
+    launc().open()
 
 }
