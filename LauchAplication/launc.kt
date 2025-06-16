@@ -1,7 +1,8 @@
 package LauchAplication
 
+import Core.MenuPackage.MainMenu
+import Core.addHead
 import Core.listView
-import Core.view
 
 
 class launc {
@@ -9,7 +10,7 @@ class launc {
         print("entra na aplicação?(S/N):")
         val confirm: Char = readln()[0]
         if (confirm == 'S'){
-            view()
+            MainMenu().menuCondicions()
         }
 
 

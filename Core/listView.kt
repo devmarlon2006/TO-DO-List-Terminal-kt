@@ -38,7 +38,7 @@ class listView {
 }
 
 fun addHead(){
-    var t1 = listView().inputTask1() + listStats().HeadStats(false)
+    var t1 = listView().inputTask1() + listStats().HeadStats(true)
     var t2 = listView().inputTask2() + listStats().HeadStats(false)
     var t3 = listView().inputTask3() + listStats().HeadStats(false)
     var t4 = listView().inputTask4() + listStats().HeadStats(false)
