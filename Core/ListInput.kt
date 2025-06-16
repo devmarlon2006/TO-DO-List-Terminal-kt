@@ -12,9 +12,17 @@ class ListInput {
 
 class listStats{
 
-    fun HeadStats(HeadDeaful: Boolean = false): Boolean{
-        var head = HeadDeaful
-        return head
+    fun HeadStats(HeadDeaful: Boolean = false): String{
+        var head: Boolean = HeadDeaful
+        var confirm1: String = ""
+        if (head == true){
+            val confirm1: String  = "🟢"
+        }else if (head == false){
+           val confirm1: String = "🔴"
+
+        }
+        return confirm1
+
     }
 
 }
